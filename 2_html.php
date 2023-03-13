@@ -20,5 +20,25 @@
         <li>Gniezno</li>
         <li>Jarocin</li>
     </ul>
+
+
+    <?php
+    $city = "POZNAN";
+        echo <<< LIST
+        <br>HEREDOC<br>
+        <ul>
+            <li>
+                $city;
+                <ol type="A">
+                    <li>Polna</li>
+                    <li>Gnieźnieńska</li>
+                    <li>Marszałkowska</li>
+                </ol>
+            </li>
+            <li>Gniezno</li>
+            <li>Jarocin</li>
+        </ul>
+LIST
+    ?>
 </body>
 </html>
